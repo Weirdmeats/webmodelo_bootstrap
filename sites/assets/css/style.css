@@ -1,120 +1,5 @@
 body{
-    margin: 0 auto;
-}
-.container,
-.container-fluid,
-.container-xxl,
-.container-xl,
-.container-lg,
-.container-md,
-.container-sm {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * 0.5);
-    padding-left: calc(var(--bs-gutter-x) * 0.5);
-    margin-right: auto;
-    margin-left: auto;
-}
-.row {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(-1 * var(--bs-gutter-y));
-    margin-right: calc(-0.5 * var(--bs-gutter-x));
-    margin-left: calc(-0.5 * var(--bs-gutter-x));
-}
-.col-auto {
-    flex: 0 0 auto;
-    width: auto;
-}
-
-.col-1 {
-    flex: 0 0 auto;
-    color: red;
-    width: 8.33333333%;
-}
-
-.col-2 {
-    flex: 0 0 auto;
-    width: 16.66666667%;
-}
-
-.col-3 {
-    flex: 0 0 auto;
-    width: 25%;
-}
-
-.col-4 {
-    flex: 0 0 auto;
-    width: 33.33333333%;
-}
-
-.col-5 {
-    flex: 0 0 auto;
-    width: 41.66666667%;
-}
-
-.col-6 {
-    flex: 0 0 auto;
-    width: 50%;
-}
-
-.col-7 {
-    flex: 0 0 auto;
-    width: 58.33333333%;
-}
-
-.col-8 {
-    flex: 0 0 auto;
-    width: 66.66666667%;
-}
-
-.col-9 {
-    flex: 0 0 auto;
-    width: 75%;
-}
-
-.col-10 {
-    flex: 0 0 auto;
-    width: 83.33333333%;
-}
-
-.col-11 {
-    flex: 0 0 auto;
-    width: 91.66666667%;
-}
-
-.col-12 {
-    flex: 0 0 auto;
-    width: 100%;
-}body{
-     margin: 0 auto;
- }
-.container,
-.container-fluid,
-.container-xxl,
-.container-xl,
-.container-lg,
-.container-md,
-.container-sm {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * 0.5);
-    padding-left: calc(var(--bs-gutter-x) * 0.5);
-    margin-right: auto;
-    margin-left: auto;
-}
-.row {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(-1 * var(--bs-gutter-y));
-    margin-right: calc(-0.5 * var(--bs-gutter-x));
-    margin-left: calc(-0.5 * var(--bs-gutter-x));
+    background-color: lightyellow;
 }
 .col-auto {
     flex: 0 0 auto;
@@ -277,25 +162,75 @@ body{
 
 h2{
     text-align: center;
+    width: 100%;
+    font-family: "Calisto MT", Arial, sans-serif;
+    font-size: 40px;
+    color: white;
+
 }
-#encabezado1 {
-    background-color: #02B6C6;
+#index_head{
+    background-color: #4eb7bf;
     height: 60px;
     width: 100%;
     text-align: Left;
-    font-family: "Californian FB";
-    text
+    font-family: "Calisto MT", Arial, sans-serif;
+    font-size: 30px;
 }
-.logotipo1{
-    text-align: center;
-
-
-}
-
-#navbar{
-    background-color: #35EFFF;
+#contacto_head{
+    background-color: #4eb7bf;
+    height: 60px;
     width: 100%;
+    text-align: Left;
+    font-family: "Calisto MT", Arial, sans-serif;
+    font-size: 30px;
+}
+#disfraces_head{
+    background-color: #4eb7bf;
+    height: 60px;
+    width: 100%;
+    text-align: Left;
+    font-family: "Calisto MT", Arial, sans-serif;
+    font-size: 30px;
+}
+
+#juguetes_head{
+    background-color: #4eb7bf;
+    height: 60px;
+    width: 100%;
+    text-align: Left;
+    font-family: "Calisto MT", Arial, sans-serif;
+    font-size: 30px;
+}
+#alimentos_head{
+    background-color: #4eb7bf;
+    height: 60px;
+    width: 100%;
+    text-align: Left;
+    font-family: "Calisto MT", Arial, sans-serif;
+    font-size: 30px;
+}
+#index_navbar{
+    background-color: #118b96;
+    width: 100%;
+    font-family: "Calisto MT", Arial, sans-serif;
+    font-size: 20px;
 
 
 }
 
+#dropdown-item{
+    background-color: #118b96;
+}
+
+#alimentos_slider_loop{
+    background-color: lightcyan;
+    height: 30%;
+    width: 30%;
+}
+
+
+}
+
+.audio{
+
+}
