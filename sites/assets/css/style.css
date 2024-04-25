@@ -169,7 +169,7 @@ h2{
     font-weight: bold;
 
 }
-#index_head{
+#index_encabezado{
     background-color: #4eb7bf;
     height: 80px;
     width: 100%;
@@ -187,7 +187,7 @@ h2{
 
 
 }
-#contacto_head{
+#contacto_encabezado{
     background-color: #4eb7bf;
     height: 60px;
     width: 100%;
@@ -195,7 +195,7 @@ h2{
     font-family: "Arial", sans-serif;
     font-size: 30px;
 }
-#disfraces_head{
+#disfraces_encabezado{
     background-color: #4eb7bf;
     height: 60px;
     width: 100%;
@@ -204,7 +204,7 @@ h2{
     font-size: 30px;
 }
 
-#juguetes_head{
+#juguetes_encabezado{
     background-color: #4eb7bf;
     height: 60px;
     width: 100%;
@@ -212,7 +212,7 @@ h2{
     font-family: "Arial", sans-serif;
     font-size: 30px;
 }
-#alimentos_head{
+#alimentos_encabezado{
     background-color: #4eb7bf;
     height: 60px;
     width: 100%;
@@ -248,6 +248,31 @@ h2{
 
 }
 
+#index_paginacion{
+    height: 200px;
+    width: 200px;
+
+
+
+
+}
+.paginacion{
+
+
+
+}
+
+#index_contacto{
+
+}
+
+#index_inbox_alerta{
+    height: 200px;
+    width: 150px;
+
+
+}
 .audio{
 
 }
+

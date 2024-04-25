@@ -14,8 +14,8 @@
 <body>
 
     <section>
-        <!Formacion del encabezado>
-        <div class="container-fluid" id="index_head">
+        <!-- Formacion del encabezado -->
+        <div class="container-fluid" id="index_encabezado">
             <div class="row">
                 <h2>El palacio de las mascotas</h2>
             </div>
@@ -35,10 +35,10 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#" style="color: white">Inicio</a>
+                                    <a class="nav-link active" aria-current="page" href="#index_encabezado" style="color: white">Inicio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="subsites/contacto.html" style="color: white">Contacto</a>
+                                    <a class="nav-link" href="#index_pie" style="color: white">Contacto</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white">
@@ -67,7 +67,7 @@
     <br>
     <br>
     <section>
-        <!Formacion de cartas>
+        <!-- Formacion de cartas -->
         <p class="title_"></p>
         <div class="container-fluid" id="index_card">
             <div class="row">
@@ -145,8 +145,54 @@
         </div>
     </section>
     <br>
-    <div id="liveAlertPlaceholder"></div>
-    <button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+
+    <section>
+        <!-- Formacion de inbox/alerta -->
+        <div class="container-fluid" id="index_inbox_alerta">
+            <div class="row">
+                <button type="button" class="btn btn-primary position-relative">
+                    Inbox
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        <span class="visually-hidden">unread messages</span></span>
+            </div>
+            <br>
+            <div class="row">
+                </button>
+                <div id="liveAlertPlaceholder"></div>
+                <button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <!-- Formacion de contacto -->
+        <div class="container-fluid" id="index_contacto">
+            <div class="row">
+                <div class="col-3">
+                    <p>Contactos</p>
+
+                </div>
+            </div>
+    </section>
+
+    <section>
+        <!-- Formacion de paginacion -->
+        <div class="container-fluid" id="index_paginacion">
+            <div class="row">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item"><a class="page-link" href="subsites/alimentos.html">1</a></li>
+                        <li class="page-item"><a class="page-link" href="subsites/disfraces.html"">2</a></li>
+                        <li class="page-item"><a class="page-link" href="subsites/alimentos.html"">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+
 
 
     <audio controls>
