@@ -163,23 +163,28 @@ body{
 h2{
     text-align: center;
     width: 100%;
-    font-family: "Calisto MT", Arial, sans-serif;
-    font-size: 50px;
+    font-family: "agency fb", sans-serif;
+    font-size: 60px;
     color: white;
+    font-weight: bold;
 
 }
 #index_head{
     background-color: #4eb7bf;
-    height: 70px;
+    height: 80px;
     width: 100%;
     text-align: Left;
-    font-family: "Calisto MT", Arial, sans-serif;
+    font-family: "Arial", sans-serif;
     font-size: 30px;
+
 }
 #index_card{
     height: 10%;
     width: 90%;
     justify-content: center;
+
+
+
 
 }
 #contacto_head{
@@ -187,7 +192,7 @@ h2{
     height: 60px;
     width: 100%;
     text-align: Left;
-    font-family: "Calisto MT", Arial, sans-serif;
+    font-family: "Arial", sans-serif;
     font-size: 30px;
 }
 #disfraces_head{
@@ -195,7 +200,7 @@ h2{
     height: 60px;
     width: 100%;
     text-align: Left;
-    font-family: "Calisto MT", Arial, sans-serif;
+    font-family: "Arial", sans-serif;
     font-size: 30px;
 }
 
@@ -204,7 +209,7 @@ h2{
     height: 60px;
     width: 100%;
     text-align: Left;
-    font-family: "Calisto MT", Arial, sans-serif;
+    font-family: "Arial", sans-serif;
     font-size: 30px;
 }
 #alimentos_head{
@@ -212,13 +217,13 @@ h2{
     height: 60px;
     width: 100%;
     text-align: Left;
-    font-family: "Calisto MT", Arial, sans-serif;
+    font-family: "Arial", sans-serif;
     font-size: 30px;
 }
 #index_navbar{
     background-color: #118b96;
     width: 100%;
-    font-family: "Calisto MT", Arial, sans-serif;
+    font-family: "Arial", sans-serif;
     font-size: 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -239,6 +244,8 @@ h2{
 .card{
     border-radius: 30px;
     background-color: aliceblue;
+
+
 }
 
 .audio{
