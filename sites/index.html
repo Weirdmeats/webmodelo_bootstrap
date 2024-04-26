@@ -12,16 +12,14 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
     <section>
         <!-- Formacion del encabezado -->
         <div class="container-fluid" id="index_encabezado">
             <div class="row">
-                <h2>El palacio de las mascotas</h2>
+                    <h2>El palacio de las mascotas</h2>
             </div>
         </div>
     </section>
-
     <section>
         <!Formacion de la barra de busqueda>
         <div class="container-fluid" id="index_navbar">
@@ -38,7 +36,7 @@
                                     <a class="nav-link active" aria-current="page" href="index.html" style="color: white">Inicio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#index_pie" style="color: white">Contacto</a>
+                                    <a class="nav-link" href="#index_contacto" style="color: white">Contacto</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white">
@@ -67,6 +65,30 @@
     <br>
     <br>
     <section>
+        <!-- Formacion de giff -->
+        <div class="container-fluid" id="index_gif">
+            <div class="row">
+                <img src="assets/images/gatochill.gif" alt="Giff banner gato chill">
+            </div>
+        </div>
+    </section>
+    <section>
+        <!-- Formacion del navbar-item -->
+        <div class="container-fluid" id="index_navbar-item">
+            <div class="row">
+                <nav id="navbar-example1" class="navbar">
+                    <nav class="nav nav-pills flex-column">
+                        <a class="nav-link ml-3 my-1" href="#juguetes">Juguetes</a>
+                        <a class="nav-link ml-3 my-1" href="#disfraces">Disfraces</a>
+                        <a class="nav-link ml-3 my-1" href="#alimentos">Alimentos</a>
+                        <a class="nav-link ml-3 my-1" href="#index_contacto">Contactos</a>
+                    </nav>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <section>
         <!-- Formacion de cartas -->
         <p class="title"></p>
         <div class="container-fluid" id="index_card">
@@ -89,7 +111,8 @@
                         <div class="card-body">
                             <h5 class="card-title">Juguetes</h5>
                             <p class="card-text">
-                                <a href="subsites/juguetes.html">Aqui</a>
+                                <button type="button" class="btn btn-warning"><a href="subsites/juguetes.html">COMPRAR</a>
+                                </button>
                             </p>
                             <p class="card-text"><small class="text-body-secondary">Para todos los animales</small></p>
                         </div>
@@ -111,7 +134,8 @@
                         <div class="card-body">
                             <h5 class="card-title">Disfraces</h5>
                             <p class="card-text">
-                                <a href="subsites/disfraces.html">Aqui</a>
+                                <button type="button" class="btn btn-warning"><a href="subsites/disfraces.html">COMPRAR</a>
+                                </button>
                             </p>
                             <p class="card-text"><small class="text-body-secondary">Para todos los animales</small></p>
                         </div>
@@ -133,7 +157,8 @@
                         <div class="card-body">
                             <h5 class="card-title">Alimentos</h5>
                             <p class="card-text">
-                                <a href="subsites/alimentos.html">Aqui</a>
+                                <button type="button" class="btn btn-warning"><a href="subsites/alimentos.html">COMPRAR</a>
+                                </button>
                             </p>
                             <p class="card-text"><small class="text-body-secondary">Para todos los animales</small></p>
                         </div>
@@ -147,20 +172,10 @@
     <br>
 
     <section>
-        <!-- Formacion de inbox/alerta -->
+        <!-- Formacion de inbox -->
         <div class="container-fluid" id="index_inbox_alerta">
             <div class="row">
-                <button type="button" class="btn btn-primary position-relative">
-                    Inbox
-                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                        <span class="visually-hidden">unread messages</span>
-                    </span>
-                </button>
-            </div>
-            <br>
-            <div class="row">
-                <div id="liveAlertPlaceholder"></div>
-                <button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+
             </div>
         </div>
     </section>
@@ -171,7 +186,6 @@
             <div class="row">
                 <div class="col-3">
                     <p>Contactos</p>
-
                 </div>
             </div>
         </div>
@@ -203,5 +217,6 @@
 
     </audio>
     <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/music.js"></script>
 </body>
 </html>
