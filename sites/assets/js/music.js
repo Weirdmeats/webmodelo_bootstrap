@@ -1,6 +1,6 @@
 // Verificar si hay una canción en reproducción guardada en el almacenamiento local
 const savedMusic = localStorage.getItem('currentMusic');
-const musicPlayer = document.getElementById('musicPlayer');
+const musicPlayer = document.querySelector('audio');
 
 // Si hay una canción guardada, establecerla como la fuente del reproductor de música
 if (savedMusic) {
