@@ -87,7 +87,7 @@ h2 {
 }
 #alimentos_card,
 #juguetes_card,
-#disfraces_card,{
+#disfraces_card{
     height: 60%;
     width: 60%;
 
