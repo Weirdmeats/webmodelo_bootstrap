@@ -1,10 +1,8 @@
-/* Estilos comunes */
 body {
     background-image: url("../images/imgbackground.jpg");
     background-position: center;
     background-size: cover;
 }
-
 h2 {
     text-align: center;
     width: 100%;
@@ -14,7 +12,6 @@ h2 {
     font-weight: bold;
     margin: 0;
 }
-
 .card {
     border-radius: 30px;
     background-color: aliceblue;
@@ -22,11 +19,7 @@ h2 {
 }
 .card-body {
     text-align: center;
-
 }
-
-/* Estilos de las columnas */
-
 .col-1 { width: 8.33333333%; }
 .col-2 { width: 16.66666667%; }
 .col-3 { width: 25%; }
@@ -51,7 +44,7 @@ h2 {
     text-align: left;
     font-family: "Arial", sans-serif;
     font-size: 30px;
-    opacity: 0.7;
+    opacity: 0.8;
 
 }
 
@@ -62,78 +55,56 @@ h2 {
 #juguetes_navbar,
 #disfraces_navbar {
     background-color: #212529;
-    opacity: 0.6;
+    opacity: 0.7;
     width: 100%;
     font-family: "Arial", sans-serif;
     font-size: 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-
 }
-
-/* paginas slider_loop */
-#alimentos_slider_loop,
-#disfraces_slider_loop,
-#juguetes_slider_loop {
-    height: 40%;
-    width: 40%;
-
-
-
-
-}
-#index_card{
-    height: 90%;
-    width: 90%;
-
-
-
-
-
-}
-#alimentos_card,
-#juguetes_card,
-#disfraces_card{
-    height: 60%;
-    width: 60%;
-
-
-}
-/* sin usar por el momento*/
-
 #index_paginacion{
     display: flex;
     justify-content: center;
     opacity: 0.6;
-
 }
 
-#index_inbox_alerta{
-}
-#index_audio,
 #juguetes_audio,
 #disfraces_audio,
 #alimentos_audio {
     justify-content: flex-end;
-
 }
-
 #index_navbar-item{
     margin: 0;
 }
-/* prueba */
-#carouselExampleSlidesOnly1,
-#carouselExampleSlidesOnly2,
-#carouselExampleSlidesOnly3,
 .card{
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    margin: 0;
 }
-
 #index_acordion{
     opacity: 0.8;
+}
+#index_card_carrusel{
+    color: black;
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    height: 50%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
 
 }
-.index_cita_acordion{
-    opacity: 1; !important;
+.dropdown-menu{
+    position: absolute;
+}
+
+#index_audio{
+
+
+
+}
+.index_parrafo_owner{
 
 }
