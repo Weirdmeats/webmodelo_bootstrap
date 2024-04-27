@@ -14,12 +14,6 @@ h2 {
     font-weight: bold;
     margin: 0;
 }
-h3{
-    text-align: center;
-    width: 100%;
-    color: Purple !important;
-    font-size: 40px;
-}
 
 .card {
     border-radius: 30px;
@@ -89,8 +83,9 @@ h3{
 
 }
 #index_card{
-    height: 80%;
-    width: 80%;
+    height: 90%;
+    width: 90%;
+
 
 
 
@@ -135,6 +130,7 @@ h3{
 }
 
 #index_acordion{
+    opacity: 0.8;
 
 }
 .index_cita_acordion{
