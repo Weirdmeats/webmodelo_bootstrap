@@ -1,8 +1,7 @@
 /* Estilos comunes */
 body {
-    background-color: whitesmoke;
-    height: 100%;
-    margin: 0;
+    background-image: url("../images/imgbackground.jpg");
+    background-position: center;
 }
 
 h2 {
@@ -22,6 +21,7 @@ h2 {
 }
 .card-body {
     text-align: center;
+
 }
 
 /* Estilos de las columnas */
@@ -37,9 +37,7 @@ h2 {
 .col-9 { width: 75%; }
 .col-10 { width: 83.33333333%; }
 .col-11 { width: 91.66666667%; }
-.col-12 { width: 100%;
-
-}
+.col-12 { width: 100%;}
 
 /* Encabezados */
 #index_encabezado,
@@ -47,11 +45,13 @@ h2 {
 #juguetes_encabezado,
 #alimentos_encabezado {
     background-color: #6d2cf0;
+    opacity: 0.5;
     height: 90px;
     width: 100%;
     text-align: left;
     font-family: "Arial", sans-serif;
     font-size: 30px;
+
 }
 
 
@@ -61,6 +61,7 @@ h2 {
 #juguetes_navbar,
 #disfraces_navbar {
     background-color: #212529;
+    opacity: 0.5;
     width: 100%;
     font-family: "Arial", sans-serif;
     font-size: 20px;
@@ -70,19 +71,23 @@ h2 {
 #index_gif{
     height: 450px;
     width: 450px;
+    margin: auto;
 }
 /* Slider Loop */
 #alimentos_slider_loop,
 #disfraces_slider_loop,
 #juguetes_slider_loop {
-    background-color: lightcyan;
-    height: 30%;
-    width: 30%;
-    border-radius: 15px;
+    height: 40%;
+    width: 40%;
+
+
+
 }
 #index_card{
     height: 80%;
     width: 80%;
+
+
 
 }
 #alimentos_card,
@@ -94,10 +99,25 @@ h2 {
 }
 /* Reglas no utilizadas */
 
-#index_paginacion,
+#index_paginacion{
+    display: flex;
+    justify-content: center;
 
-#index_inbox_alerta,
-.paginacion,
-.audio {
-    /* Reglas no utilizadas en las páginas proporcionadas */
+}
+
+#index_inbox_alerta{
+}
+#index_audio,
+#juguetes_audio,
+#disfraces_audio,
+#alimentos_audio {
+    justify-content: flex-end;
+
+}
+
+#index_navbar-item{
+    margin: 0px;
+}
+
+
 }
