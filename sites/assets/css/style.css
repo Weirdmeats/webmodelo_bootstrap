@@ -86,6 +86,7 @@ h2 {
 #index_card{
     height: 80%;
     width: 80%;
+    opacity: 0.5;
 
 
 
@@ -102,6 +103,7 @@ h2 {
 #index_paginacion{
     display: flex;
     justify-content: center;
+    opacity: 0.6;
 
 }
 
@@ -116,6 +118,21 @@ h2 {
 }
 
 #index_navbar-item{
-    margin: 0px;
+    margin: 0;
 }
 
+/* Estilos para el carrusel */
+.card-carousel {
+    opacity: 0.1; /* Opacidad del card */
+}
+
+/* Estilos para las imágenes dentro del carrusel */
+.card-carousel img {
+    opacity: 1; /* Ajustar la opacidad de las imágenes */
+    transition: opacity 0.3s ease; /* Agregar transición suave */
+}
+
+/* Cuando el mouse pase sobre el carrusel, aumentar la opacidad de las imágenes */
+.card-carousel:hover img {
+    opacity: 1;
+}
