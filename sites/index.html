@@ -39,9 +39,7 @@
                                     <a class="nav-link" href="#index_contacto" style="color: white">Contacto</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white">
-                                        Categorias
-                                    </a>
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white">Categorias</a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="subsites/alimentos.html">Alimentos</a></li>
                                         <li><a class="dropdown-item" href="subsites/juguetes.html">Juguetes</a></li>
@@ -63,30 +61,7 @@
         </div>
     </section>
     <br>
-    <section>
-        <!-- Formacion de giff -->
-        <div class="container-fluid" id="index_gif">
-            <div class="row">
-                <img src="assets/images/gatochill.gif" alt="Giff banner gato chill">
-            </div>
-        </div>
-    </section>
-    <section>
-        <!-- Formacion del navbar-item -->
-        <div class="container-fluid" id="index_navbar-item">
-            <div class="row">
-                <nav id="navbar-example1" class="navbar">
-                    <nav class="nav nav-pills flex-column">
-                        <a class="nav-link ml-3 my-1" href="#juguetes">Juguetes</a>
-                        <a class="nav-link ml-3 my-1" href="#disfraces">Disfraces</a>
-                        <a class="nav-link ml-3 my-1" href="#alimentos">Alimentos</a>
-                        <a class="nav-link ml-3 my-1" href="#index_contacto">Contactos</a>
-                    </nav>
-                </nav>
-            </div>
-        </div>
-    </section>
-
+   
     <section>
         <!-- Formacion de cartas -->
         <p class="title"></p>
@@ -108,7 +83,7 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Juguetes</h5>
+                            <h5 class="card-title" id="index_card_juguetes">Juguetes</h5>
                             <p class="card-text">
                                 <button type="button" class="btn btn-warning"><a href="subsites/juguetes.html">COMPRAR</a>
                                 </button>
@@ -131,7 +106,7 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Disfraces</h5>
+                            <h5 class="card-title" id="index_card_disfraces">Disfraces</h5>
                             <p class="card-text">
                                 <button type="button" class="btn btn-warning"><a href="subsites/disfraces.html">COMPRAR</a>
                                 </button>
@@ -154,7 +129,7 @@
                             </div>
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Alimentos</h5>
+                            <h5 class="card-title id="index_card_alimentos">Alimentos</h5>
                             <p class="card-text">
                                 <button type="button" class="btn btn-warning"><a href="subsites/alimentos.html">COMPRAR</a>
                                 </button>
@@ -195,13 +170,6 @@
             </div>
         </div>
     </section>
-
-
-
-
-
-
-
     <section>
         <!-- Formacion de contacto -->
         <div class="container-fluid" id="index_contacto">
@@ -219,11 +187,14 @@
 
     <section>
         <div class="container" id="index_audio">
-
+            <audio>
+                <source src="assets/musics/remember.mp3" type="audio/mpeg">
+                <source src="assets/musics/remember.ogv" type="audio/ogg">
+            </audio>
         </div>
     </section>
 
     <script src="assets/js/bootstrap.bundle.js"></script>
-    <script src="assets/js/music.js"></script>
+
 </body>
 </html>
