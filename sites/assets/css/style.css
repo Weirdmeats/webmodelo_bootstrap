@@ -82,7 +82,7 @@ h2 {
     margin: 0;
 }
 #index_acordion{
-    opacity: 0.8;
+    opacity: 0.7;
 }
 #index_card_carrusel{
     color: black;
@@ -107,4 +107,13 @@ h2 {
 }
 .index_parrafo_owner{
 
+}
+#badges{
+    text-align: center;
+    opacity: 0.7;
+}
+
+#index_contacto{
+    text-align: center;
+    color: white;
 }
