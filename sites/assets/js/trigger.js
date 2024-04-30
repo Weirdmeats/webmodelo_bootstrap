@@ -8,12 +8,12 @@ document.addEventListener('DOMContentLoaded', function() {
         // Configura un temporizador para ocultar la alerta después de 5 segundos
         setTimeout(function() {
             alerta.style.display = 'none';
-        }, 5000); // 5000 milisegundos = 5 segundos
+        }, 10000); // 5000 milisegundos = 5 segundos
     }
 
     // Llama a la función por primera vez para que la alerta se muestre de inmediato
     mostrarAlertaCada10Segundos();
 
-    // Configura un intervalo para llamar a la función cada 100 segundos
-    setInterval(mostrarAlertaCada10Segundos, 100000); // 10000 milisegundos = 100 segundos
+    // Configura un intervalo para llamar a la función cada 20 segundos
+    setInterval(mostrarAlertaCada10Segundos, 20000); // 1000 milisegundos = 100 segundos
 });
