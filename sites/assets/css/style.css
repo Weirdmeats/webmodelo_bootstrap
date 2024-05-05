@@ -1,7 +1,9 @@
 body {
-    background-image: url("../images/imgbackground.jpg");
+    background-image: url("../images/image.jpg");
     background-position: center;
     background-size: cover;
+
+
 }
 .item-1 {
     text-align: center;
@@ -22,25 +24,13 @@ body {
 .card-body {
     text-align: center;
 }
-.col-1 { width: 8.33333333%; }
-.col-2 { width: 16.66666667%; }
-.col-3 { width: 25%; }
-.col-4 { width: 33.33333333%; }
-.col-5 { width: 41.66666667%; }
-.col-6 { width: 50%; }
-.col-7 { width: 58.33333333%; }
-.col-8 { width: 66.66666667%; }
-.col-9 { width: 75%; }
-.col-10 { width: 83.33333333%; }
-.col-11 { width: 91.66666667%; }
-.col-12 { width: 100%;}
 
 /* Encabezados */
 #index_encabezado,
 #disfraces_encabezado,
 #juguetes_encabezado,
 #alimentos_encabezado {
-    background-color: red;
+    background-color: #6f42c1;
     height: 90px;
     width: 100%;
     text-align: left;
@@ -86,7 +76,7 @@ body {
 #index_acordion{
     opacity: 0.7;
 }
-#index_card_carrusel{
+#index_carrusel{
     color: black;
     font-family: "Arial", sans-serif;
     font-size: 20px;
@@ -98,6 +88,7 @@ body {
     justify-content: center;
 
 }
+
 .dropdown-menu{
     position: absolute;
 }
@@ -130,6 +121,5 @@ body {
     align-content: end;
     width: 100%;
     position: relative;
-
-
 }
+
