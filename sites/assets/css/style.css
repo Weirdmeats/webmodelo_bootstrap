@@ -15,7 +15,7 @@
 
 /* body */
 body {
-    background-color: red;
+    background-color: whitesmoke;
     background-position: center;
     background-size: cover;
     color: black;
@@ -37,10 +37,7 @@ body {
 
 }
 /* todas las navbars */
-#index_navbar,
-#alimentos_navbar,
-#juguetes_navbar,
-#disfraces_navbar {
+#index_navbar{
     background-color: white;
     display: flex;
     justify-content: center;
@@ -51,18 +48,58 @@ body {
     margin: 0;
     padding: 0;
     font-size: 19px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-.index_carrusel {
 
-    height: 50%;
+}
+#alimentos_navbar,
+#juguetes_navbar,
+#disfraces_navbar {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 19px;
+}
+#index_carrusel {
+    height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
 }
 .foto{
-    width: 100%;
+    width: 90%;
     margin: 0;
     padding: 0;
+}
+
+.card{
+    border-radius: 15px;
+    padding: 1px;
+    margin: 1px;
+}
+
+.carrusel_dialogo{
+    font-size: 60px;
+    text-align: right;
+    font-weight: 600;
+    color: white;
+}
+
+
+#index_contacto,
+#alimentos_contacto,
+#juguetes_contacto,
+#disfraces_contacto{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.titulo_cartas{
+    text-align: center;
+    font-weight: bold;
 }
