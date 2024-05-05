@@ -1,125 +1,74 @@
-body {
-    background-image: url("../images/image.jpg");
-    background-position: center;
-    background-size: cover;
-
-
+*{
+    font-family: 'Lato', sans-serif;
 }
-.item-1 {
+/* Encabezado bienvenidos */
+.item-1{
     text-align: center;
-    width: 100%;
-    font-family: "agency fb", sans-serif;
-    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
     color: white;
-    font-weight: bold;
-    margin: 0;
-}
-.card {
-    border-radius: 30px;
-    background-color: aliceblue;
-    overflow: hidden;
-    margin: 0;
+    margin: auto;
     padding: 0;
 }
-.card-body {
-    text-align: center;
-}
 
+/* body */
+body {
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    color: black;
+
+}
 /* Encabezados */
 #index_encabezado,
 #disfraces_encabezado,
 #juguetes_encabezado,
 #alimentos_encabezado {
-    background-color: #6f42c1;
-    height: 90px;
+    background-color: #085c64;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
     width: 100%;
-    text-align: left;
-    font-family: "Arial", sans-serif;
-    font-size: 30px;
-    opacity: 0.8;
+    margin: 0;
+    padding: 0;
 
 }
-
-
 /* todas las navbars */
 #index_navbar,
 #alimentos_navbar,
 #juguetes_navbar,
 #disfraces_navbar {
-    background-color: #212529;
-    opacity: 0.7;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 100px;
     width: 100%;
-    font-family: "Arial", sans-serif;
-    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-size: 19px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-#index_paginacion{
-    display: flex;
-    justify-content: center;
-    opacity: 0.6;
-}
+.index_carrusel{
 
-#juguetes_audio,
-#disfraces_audio,
-#alimentos_audio {
-    justify-content: flex-end;
-}
-#index_navbar-item{
-    margin: 0;
-}
-.card{
-    background-color: rgba(255, 255, 255, 0.3);
-    text-align: center;
-    margin: 0;
-}
-#index_acordion{
-    opacity: 0.7;
-}
-#index_carrusel{
-    color: black;
-    font-family: "Arial", sans-serif;
-    font-size: 20px;
-    text-align: center;
     height: 50%;
     width: 100%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-
+    margin: 0;
+    padding: 0;
 }
 
-.dropdown-menu{
-    position: absolute;
-}
-
-#index_audio{
-
-
-
-}
-.index_parrafo_owner{
-
-}
-#badges{
-    text-align: center;
-    opacity: 0.7;
-}
-
-#index_contacto{
-    text-align: center;
-    color: white;
-}
-/* imagenes*/
-.flux{
-    height: 300px;
-    width: auto;
-}
-
-.index_boton_close{
-
-    align-content: end;
+.carousel-item img {
     width: 100%;
-    position: relative;
+    margin: 0;
+    padding: 0;
 }
-
+.foto{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
