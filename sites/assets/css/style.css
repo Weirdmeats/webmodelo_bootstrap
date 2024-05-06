@@ -13,12 +13,14 @@
     padding: 0;
 }
 
-/* body */
-body {
+/* body, html */
+body, html {
     background-color: whitesmoke;
     background-position: center;
     background-size: cover;
     color: black;
+    margin: 0;
+    padding: 0;
 
 }
 /* Encabezados */
@@ -36,7 +38,17 @@ body {
     padding: 0;
 
 }
-/* todas las navbars */
+/* Todos los contactos */
+#index_contacto,
+#alimentos_contacto,
+#juguetes_contacto,
+#disfraces_contacto{
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+/* Index navbars */
 #index_navbar{
     background-color: white;
     display: flex;
@@ -50,6 +62,7 @@ body {
     font-size: 19px;
 
 }
+/* Navbars restantes */
 #alimentos_navbar,
 #juguetes_navbar,
 #disfraces_navbar {
@@ -64,42 +77,86 @@ body {
     padding: 0;
     font-size: 19px;
 }
+
 #index_carrusel {
     height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
 }
+
 .foto{
     width: 90%;
     margin: 0;
     padding: 0;
 }
 
-.card{
+.card {
     border-radius: 15px;
-    padding: 15px;
-    margin: 0px;
+    padding: 10px;
+    margin: 0;
+    width: 300px;
+    height: 425px;
+    overflow: hidden;
 }
 
-.carrusel_dialogo{
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+
+.titulo_carrusel {
     font-size: 60px;
     text-align: right;
     font-weight: 600;
     color: white;
+    -webkit-text-stroke: 2px black; /* el contorno con webkit */
 }
 
-
-#index_contacto,
-#alimentos_contacto,
-#juguetes_contacto,
-#disfraces_contacto{
-    background-color: black;
-    text-align: center;
-    color: white;
-}
 
 .titulo_cartas{
     text-align: center;
     font-weight: bold;
+}
+.boton_carrusel{
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+/* Estilos para el scrolling text */
+.scrolling-text-container {
+    background-color: lightslategray;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    overflow: hidden;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scrolling-text-container p {
+    white-space: nowrap;
+    width: 100%;
+    animation: marquee 30s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+video{
+    width: 100%;
+    height: auto;
 }
