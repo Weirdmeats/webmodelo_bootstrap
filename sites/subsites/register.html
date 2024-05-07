@@ -2,21 +2,108 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Register</title>
-
+    <title>Pet Care</title>
 
     <link rel="icon" href="../assets/icons/sonriendo.png">
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
+    <section>
+        <!-- Formación del encabezado -->
+        <div class="container-fluid" id="register_encabezado">
+            <div class="row">
+                <h2 class="item-1">¡Bienvenidos a nuestra tienda online!</h2>
+            </div>
+        </div>
+    </section>
 
-
-
-
+    <section>
+        <!-- Formación de la barra de búsqueda -->
+        <div class="container-fluid" id="register_navbar">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <img src="../assets/images/icono_pet_care2.png" alt="Logo" style="height: 69px; margin-right: 25px;">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../index.html" style="color: black">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#disfraces_contacto" style="color: black">Contacto</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black">Categorias</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="../subsites/alimentos.html">Alimentos</a></li>
+                                        <li><a class="dropdown-item" href="../subsites/juguetes.html">Juguetes</a></li>
+                                        <li><a class="dropdown-item" href="../subsites/disfraces.html">Disfraces</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" aria-disabled="true" style="color: black">@weirdmeats</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex me-2" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Buscar"  aria-label="Buscar">
+                                <button class="btn btn-outline-secondary text-black me-lg-5" type="submit">Buscar</button>
+                            </form>
+                            <div class="d-flex">
+                                <a class="btn btn-secondary me-2" href="register.html">Registrarse</a>
+                                <a class="btn btn-secondary" href="login.html">Iniciar sesión</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <section>
+        <!-- Formulario de registro -->
+        <div class="container" id="register_form">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <h3>Registro</h3>
+                    <form id="registration_form">
+                        <div class="mb-3">
+                            <label for="fullname" class="form-label">Nombre completo</label>
+                            <input type="text" class="form-control" id="fullname" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="password" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Registrarse</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <!-- Formación de contacto -->
+        <div class="container-fluid" id="register_contacto">
+            <div class="row">
+                <div class="contactos">
+                    <br>
+                    <p><h3>Contactos</h3>
+                    <br>
+                    <h4>Numero de contacto: +56983745219</h4>
+                    <h4>Correo de contacto: xejana2558@idsho.com</h4>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
 
 <script src="../assets/js/bootstrap.bundle.js"></script>
 </body>

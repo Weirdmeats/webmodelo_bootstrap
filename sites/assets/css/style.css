@@ -28,7 +28,9 @@ body, html {
 #index_encabezado,
 #disfraces_encabezado,
 #juguetes_encabezado,
-#alimentos_encabezado {
+#alimentos_encabezado,
+#register_encabezado,
+#login_encabezado{
     background-color: #085c64;
     display: flex;
     justify-content: center;
@@ -43,7 +45,9 @@ body, html {
 #index_contacto,
 #alimentos_contacto,
 #juguetes_contacto,
-#disfraces_contacto{
+#disfraces_contacto,
+#register_contacto,
+#login_contacto{
     background-color: #1e2125;
     text-align: center;
     font-weight: bold;
@@ -63,10 +67,12 @@ body, html {
     font-size: 19px;
 
 }
-/* Navbars restantes */
+/* las navbars q faltan restantes */
 #alimentos_navbar,
 #juguetes_navbar,
-#disfraces_navbar {
+#disfraces_navbar,
+#register_navbar,
+#login_navbar{
     background-color: lightblue;
     display: flex;
     justify-content: center;
@@ -92,6 +98,7 @@ body, html {
     padding: 0;
 }
 
+/* seccion cards */
 .card {
     border-radius: 15px;
     padding: 10px;
@@ -149,7 +156,7 @@ body, html {
     font-size: 40px;
 }
 
-/* Estilo para la vibración */
+/* estilo para la vibración */
 @keyframes vibration {
     0% { transform: translateX(0); }
     20% { transform: translateX(-3px) rotate(-3deg); }
@@ -159,8 +166,57 @@ body, html {
     100% { transform: translateX(0); }
 }
 
-/* Aplicar animación al texto */
+/* aplicar animación al texto */
 .animated-text {
-    animation: vibration 7s infinite; /* Animación de vibración infinita */
+    animation: vibration 7s infinite;
 }
 
+/* ESTILOS PARA register*/
+#register_form {
+    margin-top: 50px;
+}
+
+#register_form h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#registration_form {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#registration_form .form-label {
+    font-weight: bold;
+}
+
+#registration_form .btn-primary {
+    width: 100%;
+}
+
+/* ESTILOS PARA login*/
+#login_section {
+    margin-top: 50px;
+}
+
+#login_section h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#login_form {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#login_form .form-label {
+    font-weight: bold;
+}
+
+#login_form .btn-primary {
+    width: 100%;
+}
